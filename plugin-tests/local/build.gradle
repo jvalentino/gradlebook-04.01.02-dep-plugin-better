@@ -1,0 +1,11 @@
+buildscript {
+  repositories {
+    maven { url 'file:../../build/repo' }
+	jcenter()
+  }
+  dependencies {
+    classpath 'com.blogspot.jvalentino.gradle:dep-plugin-better:1.0.0'
+  }
+}
+
+apply plugin: 'dep-plugin'
